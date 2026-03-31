@@ -51,7 +51,9 @@ LSTMs are well suited to this task because they have a memory that can capture t
 ![results_error.png](results_error.png)
 ![results_SharpeRation.png](results_SharpeRatio.png)
 
+```
 --- Model Performance ---
 Model RMSE: 0.000432
 Naive RMSE: 0.000616
 Improvement over Baseline: 29.88%
+```
