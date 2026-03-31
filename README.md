@@ -24,7 +24,7 @@ We use asymtotic anaylysis to find the limit of the model as t approaches infini
 ## Technical Workflow (Python + LSTM)
 
 Work will be done in the Jupyter Notebook in the root of this directory.
-Results are saved as results.png
+Results are saved as in the project root as png's.
 
 ### Data Aquisition
 
@@ -41,6 +41,17 @@ We calculate:
 
 ### The LSTM Architecture
 
-![Physics Hamiltonian LSTM Results](results.png)
+
 
 LSTMs are well suited to this task because they have a memory that can capture the long-term dependencies we Identify in the asymptotic analysis.
+
+## Results
+
+![Physics Hamiltonian LSTM Results](results.png)
+![results_error.png](results_error.png)
+![results_SharpeRation.png](results_SharpeRation.png)
+
+--- Model Performance ---
+Model RMSE: 0.000432
+Naive RMSE: 0.000616
+Improvement over Baseline: 29.88%
