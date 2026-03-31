@@ -49,7 +49,7 @@ LSTMs are well suited to this task because they have a memory that can capture t
 
 ![Physics Hamiltonian LSTM Results](results.png)
 ![results_error.png](results_error.png)
-![results_SharpeRation.png](results_SharpeRation.png)
+![results_SharpeRation.png](results_SharpeRatio.png)
 
 --- Model Performance ---
 Model RMSE: 0.000432
