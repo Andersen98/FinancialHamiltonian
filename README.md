@@ -36,7 +36,7 @@ In this case we use **VIX**(Volatility Index).
 We calculate:
 
 1. Kinetic Energy component ($K$): $1/2 m v^2$ where $v$ is the 5-day moving average of price change.
-2. Potential Energy component ($V$): The distance from the 200-day moving average represents a restoring potential.
+2. Potential Energy component ($V$): The distance from the 3-day moving average represents a restoring potential.
 3. The Hamiltonian Feature: $H = K + V$
 
 ### The LSTM Architecture
